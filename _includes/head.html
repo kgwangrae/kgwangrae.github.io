@@ -2,22 +2,14 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width initial-scale=1" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-
-    <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
+    <meta name="ROBOTS" content="ALL"/>
     <meta name="description" content="{{ site.description }}">
-
-    <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}">
-    <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
+    <meta name="keywords" content="Gwangrae Kim Blog Android Mobile"/>
 
     <!-- Facebook OpenGraph tags (thanks to https://github.com/daattali/beautiful-jekyll/blob/master/_includes/head.html) -->
     <meta property="og:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}" />
     <meta property="og:type" content="website" />
-
-    {% if page.id %}
-    <meta property="og:url" content="{{ site.url }}{{ page.url }}/" />
-    {% else %}
-    <meta property="og:url" content="{{ site.url }}{{ page.url | remove: '/index.html' | remove: '.html' }}" />
-    {% endif %}
+    <meta property="og:description" content="{% if page.description %}{{ page.subtitle }} - {{ page.description }}{% endif %}" />
 
     {% if page.fb-img %}
     <meta property="og:image" content="{{ page.fb-img }}" />
@@ -26,4 +18,9 @@
     {% else %}
     <meta property="og:image" content="" />
     {% endif %}
+
+    <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
+
+    <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}">
+    <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
 </head>
