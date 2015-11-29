@@ -1,0 +1,12 @@
+# Site settings
+title: Blog of Gwangrae Kim
+email: k.gwangrae@gmail.com
+description: > # this means to ignore newlines until "baseurl:"
+  Blog of Gwangrae Kim, 2015. 10. 31~
+baseurl: ""
+url: "http://kgwangrae.github.io"
+github_username:  kgwangrae
+paginate: 5
+
+# Build settings
+markdown: kramdown

@@ -1,9 +1,17 @@
-## 2015년 11월 2일
+---
+layout: post
+title:  "Unit Testing에 대한 고민 / Newbie to C++"
+date:   2015-11-02 23:29:00 GMT+9
+categories: daily
+---
+
 ### C++
+
 곧안가 C++을 만지게 될 것 같다. 복잡한 언어라는 평을 많이 들어서 조금 걱정은 되는데, 어차피 궁금했던 언어이기도 해서 마침 배워보면 좋을 것 같다.
 
 
 ### Testing
+
 요즘 Test code를 작성하는 데 꽤 많은 시간을 할애하고 있는데,
 
 - Test Context 준비는 어떻게 할 것인가?

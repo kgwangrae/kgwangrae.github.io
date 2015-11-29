@@ -1,11 +1,19 @@
-## 2015년 10월 31일
+---
+layout: post
+title:  "Beginning"
+date:   2015-10-31 12:18:00 GMT+9
+categories: daily
+---
+
 ### 시작
+
 이래저래 날마다 배운 것을 기록해둘 필요를 느꼈는데
+
 - Tistory, 네이버 블로그 등: 코드 넣기가 영 불편하다.
 - 워드프레스: 호스팅할 곳이 필요하다...는 건 핑계고 만지기가 귀찮아서...
 
 
-![Just do it tomorrow](151031_img.jpg?raw=true)
+![Just do it tomorrow](/assets/2015-10-31-just-do-it-tomorrow.jpg)
 
 
 **_항상 그렇듯 귀찮은 게 문제다._**

@@ -1,5 +1,9 @@
-## 2015년 11월 9일
-... 자정이 넘어버렸다;
+---
+layout: post
+title:  "Android Instrumentation"
+date:   2015-11-09 23:59:59 GMT+9
+categories: daily
+---
 
 ### Android Instrumentation
 Test를 하면서 **Instrumentation**이라는 단어를 자주 접하게 되었는데, 내가 알고있던 instrument라는 단어의 뜻과 (악기, 장비) 잘 연결이 되지 않아서 혼란스러웠던 적이 있다.
@@ -14,6 +18,6 @@ Test를 하면서 **Instrumentation**이라는 단어를 자주 접하게 되었
 
 Instrumentation test를 작성할 때 UI Thread에서 method를 실행하고 그 결과를 기다릴 때 복잡하게 lock을 이용했었는데 그럴 필요가 전혀 없었다; [runOnMainSync(Runnable)](http://developer.android.com/reference/android/app/Instrumentation.html#runOnMainSync(java.lang.Runnable))을 쓰면 되는 문제였다.
 
-**좋은 게 있어도 그게 있는 지 알아야 쓸 수 있다**는 걸 다시금 느낀 하루였다. 고민되는 게 있으면 일단 검색부터 더 자세히 해보릇 해야겠다.
+좋은 게 있어도 그게 있는 지 알아야 쓸 수 있다는 걸 다시금 느낀 하루였다. 고민되는 게 있으면 일단 검색부터 더 자세히 해보릇 해야겠다.
 
-**_그건 그렇고 daily blog라고 써놨는데 벌써 망했다._**
+**_그건 그렇고 daily blog라고 써놨는데 벌써 망했다..._**
