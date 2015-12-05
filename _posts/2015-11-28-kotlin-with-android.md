@@ -108,6 +108,10 @@ fun sample(param: Any?) {
 
 ### 단점
 
+#### *Android Lint가 작동하지 않는다.
+
+Kotlin code에 실수로 API level 21 이상에서만 작동하는 method를 사용했다가 KitKat 기기에서 앱이 강제 종료되는 경험을 해보았다. Compile time에 아무런 경고도 받지 못했는데, 이러한 문제가 수정될 예정이 있는지는 모르겠다.
+
 #### *Java reflection을 이용하는 library와 문제가 있을 수 있다.
 
 Java class의 경우 reflection을 이용해 private field에도 접근할 수 있는데, Kotlin class의 private property는 무슨 수를 써봐도 접근이 안 된다. 내가 방법을 몰라서 못하고 있는 건지도 모르겠지만...
